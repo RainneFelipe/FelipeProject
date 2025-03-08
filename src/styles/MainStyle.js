@@ -1,41 +1,36 @@
-import { StyleSheet } from "react-native"
-import { ReloadInstructions } from "react-native/Libraries/NewAppScreen"
+import { StyleSheet } from 'react-native';
 
 export const felipestyles = StyleSheet.create({
-
-container: {
-    justifyContent: 'center',
+  container: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
     alignItems: 'center',
-    height: '100%',
-    borderColor: 'green',
-    borderWidth: 5,
-
-},
-
-imageContainer: {
-    width:'300',
-    height:'200',
-},
-
-TitleText: {
-    backgroundColor: '#f6a192',
-    fontSize: 50,
     justifyContent: 'center',
-    alignItems: 'center',
-    borderColor: 'black',
-    borderWidth: 5,
-    marginBottom: 100
-
-},
-
-TextInput: {
+  },
+  TitleText: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#0000FF',
+    marginBottom: 20,
+  },
+  TextInput: {
+    height: 40,
+    borderColor: '#0000FF',
     borderWidth: 1,
-    borderColor: '#000',
-    width: 400,
-    color: 'black',
-    marginTop: 50,
-
-}
-
-
-})
+    marginBottom: 20,
+    paddingLeft: 10,
+    width: '80%',
+  },
+  imageContainer: {
+    width: 100,
+    height: 100,
+  },
+  buttonText: {
+    fontSize: 18,
+    color: '#FFFFFF',
+    backgroundColor: '#0000FF',
+    padding: 10,
+    textAlign: 'center',
+    borderRadius: 5,
+  },
+});
