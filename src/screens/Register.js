@@ -11,7 +11,6 @@ const Register = ({ navigation }) => {
 
   const handleRegister = () => {
     if (username && password) {
-      // Save user details to variable
       const user = { username, password };
       saveUser(user);
       Alert.alert('Registration Successful', 'You can now log in with your credentials.');

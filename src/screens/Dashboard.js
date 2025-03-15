@@ -14,7 +14,7 @@ const Dashboard = ({ navigation }) => {
           <Text style={styles.buttonText}>View Grades</Text>
         </TouchableOpacity>
       </View>
-      {/* Add your dashboard content here */}
+
     </View>
   );
 };
